@@ -4,6 +4,8 @@ FROM python:3.8
 # Set the working directory in the container
 WORKDIR /app
 
+EXPOSE 5000
+
 # Copy the application files into the working directory
 COPY . /app
 
